@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/tic-tac-toe.png" type="image/x-icon">
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+    <nav>
+        <div id="heading">Tic Tac Toe</div>
+        <div id="nameTag">by Gaurav</div>
+    </nav>
+    <section id="main-section">
+        <div id="game-box">
+            <div aria-disabled="true" onclick="mark(this)" class="box bt-0 bl-0"></div>
+            <div aria-disabled="true" onclick="mark(this)" class="box bt-0"></div>
+            <div aria-disabled="true" onclick="mark(this)" class="box bt-0 br-0"></div>
+            <div aria-disabled="true" onclick="mark(this)" class="box bl-0"></div>
+            <div aria-disabled="true" onclick="mark(this)" class="box"></div>
+            <div aria-disabled="true" onclick="mark(this)" class="box br-0"></div>
+            <div aria-disabled="true" onclick="mark(this)" class="box bb-0 bl-0"></div>
+            <div aria-disabled="true" onclick="mark(this)" class="box bb-0"></div>
+            <div aria-disabled="true" onclick="mark(this)" class="box bb-0 br-0"></div>
+        </div>
+        <div id="game-hud">
+            <h1>Play with your frinds - tic tac toe</h1>
+            <div class="">
+                <button id="newGame">New Game</button>
+                <h1 id="info"></h1>
+            </div>
+            <img id="winDance" src="./assets/winDance.gif" alt="">
+        </div>
+    </section>
+</body>
+<script src="./index.js"></script>
+
+</html>
